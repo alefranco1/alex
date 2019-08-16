@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Twitch API APP</title>
+  <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+  <div id="app">
+      <div id="search">
+          <input id="searchbar" type="text" placeholder="Search query..." name="game">  
+          <button onClick= "onSearch(listFive)">Search</button>
+      </div>
+      <div class="listing">
+          <div id="pagination">
+            <div id="total">
+            </div>
+            <div id="pages">
+            </div>
+          </div>
+          <div id="table">
+          </div>
+      </div>
+  </div>
+  <script src="./config.js"></script>
+  <script src="./index.js"></script>
+</body>
+</html>
